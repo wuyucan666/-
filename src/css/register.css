@@ -1,0 +1,61 @@
+/* 
+
+*/
+
+body{background: #fdf8f4 url('img/register_01.jpg') no-repeat center top;}
+
+#header {width: 100%; background-color: #000; background: rgba(0,0,0,0.8);}
+
+#header .container {height: 70px;}
+
+#header .container .headright a{display: inline-block; line-height: 70px; padding: 0 10px; color: #999;}
+
+#header .container .headright a:hover {color: #F8A120;}
+
+#main {width: 100%; padding: 30px 0; margin: 0 !important;}
+
+#main .container {width: 1200px; margin: 0 auto; height: 720px;}
+
+#main .container .reg-right {width: 380px;padding: 30px 35px; float: right; background-color: #fff; margin-top: 80px; position: relative;}
+
+#main .container .reg-right .tab_phone {width: 310px;}
+
+#main .container .reg-right .tab_phone>div{width: 310px;}
+
+#main .container .reg-right .tab_phone .showCode {overflow:hidden;}
+
+#main .container .reg-right .tab_phone .showCode span:first-child {display: block; height: 40px; line-height: 40px;}
+
+#main .container .reg-right .tab_phone .showCode input {width: 112px; height: 51px; border:1px solid #ccc; padding: 5px 15px; float: left;}
+
+#main .container .reg-right .tab_phone .showCode span:nth-child(3) {display: inline-block; width: 80px; height: 40px; border: 1px solid #000; margin: 10px; text-align: center; line-height: 40px; cursor: pointer; background: #F8A120; color: #fff; font-weight: bold;}
+
+#main .container .reg-right .tab_phone .showCode span:last-child {cursor: pointer;}
+
+#main .container .reg-right .tab_phone>div>p {width: 310px; height: 40px; overflow: hidden;}
+
+#main .container .reg-right .tab_phone>div>p span:first-child {float: left; line-height: 40px;  height: 40px; color: #666;}
+
+#main .container .reg-right .tab_phone>div>p span:nth-child(2) {float: right; line-height: 40px;  height: 40px; color: #999;}
+
+#main .container .reg-right .tab_phone>div>input {width: 310px; height: 42px; border: 1px solid #ccc;}
+
+#main .container .reg-right .tab_phone input {padding: 10px;}
+
+#main .container .reg-right .tab_phone input#code {display:none;}
+
+#main .container .reg-right .tab_reg .btn_reg {width: 100%; height: 50px;background-color: #f19108; border: 0; cursor: pointer; font-size: 16px; color: #fff; font-weight: bold; text-align: center; margin-top: 10px;}
+
+#main .container .reg-right .tab_reg p {width: 100%; height: 20px; line-height: 20px; color: #999; margin-top: 15px;}
+
+#main .container .reg-right .tab_reg p.login {margin-top: 25px;}
+
+#main .container .reg-right .tab_reg p a {color: #999;}
+
+#main .container .reg-right .tab_reg p.login a{color: #F8A120;}
+
+
+
+
+
+#footer {margin-top: 0 !important;}

@@ -1,0 +1,245 @@
+/* 
+* @Author: Marte
+* @Date:   2018-08-23 19:35:50
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-08-25 11:25:05
+*/
+body{background:#F6F6F6;}
+
+#header {width: 100%;background: #323232;}
+
+#header .container {height: 70px;width: 990px;}
+
+#main .container {
+    width: 990px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.main-title {
+    height: 30px;
+    padding-left: 15px;
+    line-height: 30px;
+}
+
+.main-title span {margin:0 10px;color: #f00;}
+
+table thead tr {
+    background:#ECECEC;
+    height: 48px;
+    border: 1px solid #f1f1f1;
+    padding: 1px;
+}
+
+table tbody td{
+    border-top: 1px solid #ececec;
+    text-align: center;
+    line-height: 22px;
+    margin-top: -1px;
+    padding:20px;
+}
+
+table tbody td img {
+    padding-right: 5px;
+    float: left;
+    width: 82px;
+    height: 82px;
+    cursor:pointer;
+}
+
+table tbody td a.name:hover {text-decoration: underline;cursor: pointer;}
+
+table tbody td p.size {color:#999;}
+
+/*table tbody td p.size .color{margin-left: 10px;}*/
+
+table tbody td p.size .size{margin-left: 30px;}
+
+
+table tbody td input {
+    width: 15px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    border-left: 0;
+    border-right: 0;
+    color: #666;
+}
+
+table tbody  td .cao{
+    width: 40px;
+}
+
+table tbody td span.tr_total{color:#f00;font-weight: bold;}
+
+td.del a {cursor:pointer;}
+
+.carbox{
+    padding: 15px 45px 25px 30px;
+    margin-top: 6px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+}
+
+.carbox p {
+    height: 25px;
+    overflow: hidden;
+}
+
+.carbox p label{
+    float:left;
+    margin-right: 50px;
+}
+
+.numtotal {
+    float:right;
+}
+
+.hide1 {cursor:pointer;}
+
+.hide1:hover{color:#f00;}
+
+.hide1>i {display:inline-block;width: 16px;height: 13px;background:url(../img/del-1.jpg) no-repeat left center;}
+
+
+p.car-two span {
+    float:right;
+}
+
+p.car-three span {
+    float:right;
+}
+
+p.car-four span {
+    float:right;
+}
+
+p.car-five {
+    height: 47px;
+    cursor:pointer;
+}
+
+p.car-five span:first-child{
+    float:left;
+    padding: 5px 15px;
+    border: 1px solid #e93b39;
+    color: #e93b39;
+    background: none;
+    margin-top:8px;
+}
+
+p.car-five span:nth-child(2){
+    float:right;
+    padding: 10px 40px;
+    background-color: #e93b39;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.car-list {
+    width: 986px;
+    border: 1px solid #f1f1f1;
+    background-color: #fff;
+    padding: 1px;
+    margin-top: 30px;
+}
+
+.car-list h3{
+    height: 38px;
+    background-color: #ececec;
+    line-height: 38px;
+    text-indent: 24px;
+    font-weight: bold;
+    color: #666;
+}
+
+.car-banner {
+    width: 986px;
+    height: 228px;
+    background:#fff;
+    border:1px solid #fff;
+    position:relative;
+    overflow:hidden;
+    padding:30px;
+}
+
+.car-banner ul{width: 2772px;height: 172px;}
+
+.car-banner .previous{
+    position:absolute;
+    left:10px;top:100px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.car-banner .next {
+    position:absolute;
+    right:10px;top:100px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.car-banner li {
+    width: 187px;
+    height: 156px;
+    padding:0 15px;
+    float:left;
+    text-align: center;
+}
+
+.car-banner li img{display:inline-block;width: 140px;height: 122px;border:1px solid #ccc;margin-bottom: 2px;}
+
+.car-banner p{font-weight: bold;}
+
+.fotLeft img{
+    display:inline-block;
+}
+
+.fotRight{
+    width: 247px;
+    height: 155px;
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #fff;
+    padding: 15px 36px 0;
+}
+
+.fotRight a {
+    display: inline-block;
+    width: 85px;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.bbb{
+    width: 100%;
+    height: 35px;
+    background-color: #fff;
+    border-top: 1px solid #e3e3e3;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.bbb img {
+    display:inline;height: 31px;
+}
+
+i.total{
+    font-size: 20px;
+    color:#f00;
+}
+
+.selected{background: #fdf0ef;} 

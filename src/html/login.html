@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login-iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body>
+    <div id="login_top"></div>
+
+    <div id="login_mian">
+        <div class="container clearfix">
+            <div class="login_right  fr">
+                <div class="t">
+                    <p><span class="saoma">扫码登录</span><span class="mima">密码登录</span></p>
+                    <span class="error fl"  id="error_msg">请输入用户名</span>
+                    <div class="email">
+                        <input type="text" id="login_name" placeholder="用户名/手机号/邮箱"/>
+                        <i class="iconfont icon-portrait"></i>
+                    </div>
+                    <div class="pwd">
+                        <input type="password" id="login_password" placeholder="密码"/>
+                        <i class="iconfont icon-suo"></i>
+                    </div> 
+                    <div class="num">
+                        <span>验证码：</span>
+                        <input type="text" id="login_code"/><span class="login_code"></span><span class="to">换一换</span>
+                    </div>
+                    <p><label><input type="checkbox"/>记住账号</label></p>
+                    <button class="go">立即登录</button>
+                </div>
+
+                <div class="b">
+                    <p>使用合作网站账号登录</p>
+                    <p class="weixing"><img src="../css/img/qq.jpg" width="15" height="15"  /><i>QQ</i><img src="../css/img/WeChat.png" width="24" height="24" /><i>微信</i></p>
+                    <p class="clearfix huiyuan"><span>还不是寺库会员？</span><a href="register.html">免费注册</a><span class="fr wj">忘记密码？</span></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="login_footer"></div>
+</body>
+</html>

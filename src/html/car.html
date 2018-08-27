@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>购物车页面</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/car.css" />
+    <script src="../js/require.js" data-main="../js/car"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container clearfix">
+            <div class="topLeft fl"><img src="../img/logo.png"/></div>
+            <div class="topRight fr"><img src="../img/car-1.jpg"/></div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="container">
+            <div class="main-title">现在<a href="login.html"><span>登录</span></a>您购物车中的商品将永久被保存</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="75"><label><input type="checkbox" class="all" />全选</label></th>
+                        <th width="355">商品名称</th>
+                        <th width="96">发货站</th>
+                        <th width="96">价格</th>
+                        <th width="140">数量</th>
+                        <th width="110">金额小计</th>
+                        <th width="110">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td><input type="checkbox" /></td>
+                        <td width="97" class="clearfix">
+                            <img src="../img/show1.jpg" alt="" />
+                            <a class="name">【包税】CARTIER/卡地亚  经典款LOVE系列 18K金玫瑰金色 戒指，窄款  B4085200</a>
+                            <p class="size"><span class="color">颜色：玫瑰金色</span><span class="size">尺码：60号</span></p>
+                        </td>
+                        <td><span>中国香港</span></td>
+                        <td>
+                            <span class="price">￥8,752</span>
+                        </td>
+                        <td>
+                            <input type="number" value="1" />
+                        </td>
+                        <td>
+                            <span class="tr_total"><i>￥8,752</i>元</span>
+                        </td>
+                        <td class="del">
+                            <a>删除</a>
+                        </td>
+                    </tr> -->
+                </tbody>
+            </table>
+            <div class="carbox">
+                <p class="car-one">
+                    <label><input type="checkbox" class="all" />全选</label>
+                    <span class="hide1"><i></i>删除选中商品</span>
+                    <span class="numtotal">商品数量总计：<i class="n">0</i> 件</span>
+                </p>
+                <p class="car-two"><span>包装数量总计：<i>0</i> 件</span></p>
+                <p class="car-three"><span>返利库币：<i>0</i> 库币</span></p>
+                <p class="car-four">
+                    <span>商品金额总计（不含税金和运费）：￥<i class="total">0</i>元</span>
+                </p>
+                <p class="car-five">
+                    <span>继续购物</span>
+                    <span>立即结算</span>
+                </p>
+            </div>
+            <div class="car-list">
+                <h3>猜你喜欢</h3>
+                <div class="car-banner">
+                    <div class="previous"> &lt </div>
+                    <ul class="clearfix">
+                        <li>
+                            <img src="../img/list-1.jpg" alt="" />
+                            <a>【包税】SK-II 小银瓶 肌</a>
+                            <p>1227元</p>
+                        </li>
+                        <li>
+                            <img src="../img/list-3.jpg" alt="" />
+                            <a>adidas/阿迪达斯 2017夏季</a>
+                            <p>799元</p>
+                        </li>
+                        <li>
+                            <img src="../img/list-4.jpg" alt="" />
+                            <a>zolitt婴儿棉柔巾 干湿两用纸</a>
+                            <p>68元</p>
+                        </li>
+                        <li>
+                            <img src="../img/list-5.jpg" alt="" />
+                            <a>【18年秋冬】 OFF WHITE/OFF</a>
+                            <p>1067元</p>
+                        </li>
+                        <li>
+                            <img src="../img/list-6.jpg" alt="" />
+                            <a>adidas/阿迪达斯 2017夏季</a>
+                            <p>799元</p>
+                        </li>
+                        <li>
+                            <img src="../img/list-1.jpg" alt="" />
+                            <a>【包税】SK-II 小银瓶 肌</a>
+                            <p>1227元</p>
+                        </li>
+                        <li>
+                            <img src="../img/list-3.jpg" alt="" />
+                            <a>adidas/阿迪达斯 2017夏季</a>
+                            <p>799元</p>
+                        </li>
+                        <li>
+                            <img src="../img/list-4.jpg" alt="" />
+                            <a>zolitt婴儿棉柔巾 干湿两用纸</a>
+                            <p>68元</p>
+                        </li>
+                        <li>
+                            <img src="../img/list-5.jpg" alt="" />
+                            <a>【18年秋冬】 OFF WHITE/OFF</a>
+                            <p>1067元</p>
+                        </li>
+                        <li>
+                            <img src="../img/list-6.jpg" alt="" />
+                            <a>adidas/阿迪达斯 2017夏季</a>
+                            <p>799元</p>
+                        </li>
+                    </ul>
+                    <div class="next"> &gt </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container clearfix">
+            <div class="fotLeft fl">
+                <img src="../img/car-2.png"/>
+            </div>
+            <div class="fotRight fr">
+                <a href="">加入寺库</a>
+                <a href="">关于寺库</a>
+                <a href="">联系我们</a>
+                <a href="">支付方式</a>
+                <a href="">帮助中心</a>
+                <a href="">售后服务</a>
+                <a href="">免责声明</a>
+                <a href="">礼品采购</a>
+                <a href="">寺库微博</a>
+                <a href="">友情链接</a>
+            </div>
+        </div>
+        <div class="bbb">
+            <span>京ICP备09084709号-3 京公网安备110105004373号</span>
+            <a href=""><img src="../img/foot-4.jpg" alt="" /></a>
+            <a href=""><img src="../img/foot-5.jpg" alt="" /></a>
+            <a href=""><img src="../img/foot-6.png" alt="" /></a>
+        </div>
+    </div>
+</body>
+</html>
